@@ -2,3 +2,9 @@ com/example/servingwebcontent/ServingWebContentApplication.java
  com.example.servingwebcontent.ServingWebContentApplication
 com/example/servingwebcontent/GreetingController.java
  com.example.servingwebcontent.GreetingController
+com/example/validatingforminput/PersonForm.java
+ com.example.validatingforminput.PersonForm
+com/example/validatingforminput/WebController.java
+ com.example.validatingforminput.WebController
+com/example/validatingforminput/ValidatingFormInputApplication.java
+ com.example.validatingforminput.ValidatingFormInputApplication
