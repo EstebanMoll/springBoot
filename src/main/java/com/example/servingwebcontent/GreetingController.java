@@ -8,6 +8,8 @@ import org.springframework.web.bind.support.SessionStatus;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.Arrays;
+import java.util.List;
 
 @Controller
 @SessionAttributes("valueSession2")
@@ -47,6 +49,11 @@ public class GreetingController {
     public String endSession(SessionStatus status){
         status.setComplete();
         return "redirect:/greeting";
+    }
+
+    @ModelAttribute("someList")
+    public List<String> getSomeList(){
+        return Arrays.asList("Element 1", "Element 2", "Element 3");
     }
 
 }

@@ -9,5 +9,8 @@
 <p th:text="'valueSession = '+ ${session.valueSession}"/>
 <p th:text="'valueSession2 = '+ ${session.valueSession2}"/>
 <p th:text="'fooCookie = '+ ${foo}"/>
+<tr th:each="e : ${someList}">
+    <td th:text="${e}"/><br/>
+</tr>
 </body>
 </html>
